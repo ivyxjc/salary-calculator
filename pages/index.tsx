@@ -2,8 +2,10 @@ import type {NextPage} from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import {IvyPage} from "../types";
+import DefaultLayout from "../layout/Default";
 
-const Home: NextPage = () => {
+const Home: IvyPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -69,4 +71,5 @@ const Home: NextPage = () => {
   )
 }
 
+Home.layout = DefaultLayout
 export default Home

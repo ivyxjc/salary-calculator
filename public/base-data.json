@@ -1,0 +1,14 @@
+{
+  "hangzhou": {
+    "social_insurance_base": 18775,
+    "provident_fund_base": 18775,
+    "childrenEdu": 1000,
+    "furtherEdu": 1000,
+    "disease": 1000,
+    "loan": 1000,
+    "rent": 1000,
+    "elder": 1000
+  },
+  "shanghai": {
+  }
+}

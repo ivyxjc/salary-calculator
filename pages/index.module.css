@@ -1,0 +1,14 @@
+@media screen and (min-width: 800px) {
+  .Form {
+    padding-left: 8px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Form {
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 100%;
+  }
+}
